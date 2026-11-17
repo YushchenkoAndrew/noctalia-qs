@@ -81,7 +81,6 @@ public:
 
 	[[nodiscard]] HyprlandMonitor* monitorFor(QuickshellScreenInfo* screen);
 
-	[[nodiscard]] QBindable<bool> bindableUsingLua() const { return &this->bUsingLua; }
 
 	[[nodiscard]] QBindable<HyprlandMonitor*> bindableFocusedMonitor() const;
 	[[nodiscard]] QBindable<HyprlandWorkspace*> bindableFocusedWorkspace() const;
